@@ -1,0 +1,837 @@
+    <form method="post" action="http://uniaotransportedeveiculos.com.br/formulario/enviar-cotacao.php">
+
+		<div class="page-tabs">
+
+			<div class="pcss3t pcss3t-height-auto">
+
+				<input type="radio" name="pcss3t" checked  id="tab1" class="tab-content-first">
+				<label for="tab1">1 - Dados do Solicitante</label>
+				
+				<input type="radio" name="pcss3t" id="tab3" class="tab-content-3">
+				<label for="tab3">2 - Dados do Veículo</label>
+				
+				<input type="radio" name="pcss3t" id="tab5" class="tab-content-last">
+				<label for="tab5">3 - Origem/Destino</label>
+				
+				
+
+				<ul>
+
+                    <input type="hidden" name="home_url" value="http://uniaotransportedeveiculos.com.br/site" />
+
+					<li class="tab-content tab-content-first typography">
+
+						 <div class="elementor-row">
+
+								 	<!-- COLUNA UM -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Seu nome*</label>
+								 			<input type="text" required class="wpcf7-form-control wpcf7-text" name="nome" placeholder="Seu nome completo">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA UM -->
+
+								 	<!-- COLUNA DOIS -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Empresa</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="empresa" placeholder="Nome da empresa">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA DOIS -->
+
+								 	<!-- COLUNA TRES -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Telefone</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="telefone" placeholder="DDD + Número">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA TRES -->
+
+						</div>
+						<div class="elementor-row">
+								
+								 	<!-- COLUNA QUATRO -->
+								 	<div class="elementor-col-75">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">E-mail *</label>
+								 			<input type="email" required class="wpcf7-form-control wpcf7-text" name="email" placeholder="E-mail de contato">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA QUATRO -->
+
+								 	<!-- COLUNA CINCO -->
+								 	<div class="elementor-col-25">
+								 		   <a href="javascript:void(0)" onclick="jQuery(function($){ $('#tab3').prop('checked', true); });" class="diogenes-botao" title="Selecionar o veículo">
+								 		   	  Selecionar <br>o veículo
+								 		   </a>
+								    </div>						 	
+								 	<!-- COLUNA CINCO -->
+
+						 </div>
+					</li>
+					
+					<li class="tab-content tab-content-3">
+						<div class="elementor-row">
+
+								 	<!-- COLUNA UM -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Marca *</label>
+								 			<select name="marca" required style="padding: .462em .769em;" class="wpcf7-form-control wpcf7-select">
+								 				<option value="">Seleciona uma opção</option>
+								 				<option value="Acura">Acura</option>
+											    <option value="Agrale">Agrale</option>
+											    <option value="Alfa Romeo">Alfa Romeo</option>
+											    <option value="AM Gen">AM Gen</option>
+											    <option value="Asia Motors">Asia Motors</option>
+											    <option value="ASTON MARTIN">ASTON MARTIN</option>
+											    <option value="Audi">Audi</option>
+											    <option value="Baby">Baby</option>
+											    <option value="BMW">BMW</option>
+											    <option value="BRM">BRM</option>
+											    <option value="Bugre">Bugre</option>
+											    <option value="Cadillac">Cadillac</option>
+											    <option value="CBT Jipe">CBT Jipe</option>
+											    <option value="CHANA">CHANA</option>
+											    <option value="CHANGAN">CHANGAN</option>
+											    <option value="CHERY">CHERY</option>
+											    <option value="Chrysler">Chrysler</option>
+											    <option value="Citroën">Citroën</option>
+											    <option value="Cross Lander">Cross Lander</option>
+											    <option value="Daewoo">Daewoo</option>
+											    <option value="Daihatsu">Daihatsu</option>
+											    <option value="Dodge">Dodge</option>
+											    <option value="EFFA">EFFA</option>
+											    <option value="Engesa">Engesa</option>
+											    <option value="Envemo">Envemo</option>
+											    <option value="Ferrari">Ferrari</option>
+											    <option value="Fiat">Fiat</option>
+											    <option value="Fibravan">Fibravan</option>
+											    <option value="Ford">Ford</option>
+											    <option value="FOTON">FOTON</option>
+											    <option value="Fyber">Fyber</option>
+											    <option value="GEELY">GEELY</option>
+											    <option value="GM - Chevrolet">GM - Chevrolet</option>
+											    <option value="GREAT WALL">GREAT WALL</option>
+											    <option value="Gurgel">Gurgel</option>
+											    <option value="HAFEI">HAFEI</option>
+											    <option value="HITECH ELECTRIC">HITECH ELECTRIC</option>
+											    <option value="Honda">Honda</option>
+											    <option value="Hyundai">Hyundai</option>
+											    <option value="Isuzu">Isuzu</option>
+											    <option value="IVECO">IVECO</option>
+											    <option value="JAC">JAC</option>
+											    <option value="Jaguar">Jaguar</option>
+											    <option value="Jeep">Jeep</option>
+											    <option value="JINBEI">JINBEI</option>
+											    <option value="JPX">JPX</option>
+											    <option value="Kia Motors">Kia Motors</option>
+											    <option value="Lada">Lada</option>
+											    <option value="LAMBORGHINI">LAMBORGHINI</option>
+											    <option value="Land Rover">Land Rover</option>
+											    <option value="Lexus">Lexus</option>
+											    <option value="LIFAN">LIFAN</option>
+											    <option value="LOBINI">LOBINI</option>
+											    <option value="Lotus">Lotus</option>
+											    <option value="Mahindra">Mahindra</option>
+											    <option value="Maserati">Maserati</option>
+											    <option value="Matra">Matra</option>
+											    <option value="Mazda">Mazda</option>
+											    <option value="Mclaren">Mclaren</option>
+											    <option value="Mercedes-Benz">Mercedes-Benz</option>
+											    <option value="Mercury">Mercury</option>
+											    <option value="MG">MG</option>
+											    <option value="MINI">MINI</option>
+											    <option value="Mitsubishi">Mitsubishi</option>
+											    <option value="Miura">Miura</option>
+											    <option value="Nissan">Nissan</option>
+											    <option value="Peugeot">Peugeot</option>
+											    <option value="Plymouth">Plymouth</option>
+											    <option value="Pontiac">Pontiac</option>
+											    <option value="Porsche">Porsche</option>
+											    <option value="RAM">RAM</option>
+											    <option value="RELY">RELY</option>
+											    <option value="Renault">Renault</option>
+											    <option value="Rolls-Royce">Rolls-Royce</option>
+											    <option value="Rover">Rover</option>
+											    <option value="Saab">Saab</option>
+											    <option value="Saturn">Saturn</option>
+											    <option value="Seat">Seat</option>
+											    <option value="SHINERAY">SHINERAY</option>
+											    <option value="smart">smart</option>
+											    <option value="SSANGYONG">SSANGYONG</option>
+											    <option value="Subaru">Subaru</option>
+											    <option value="Suzuki">Suzuki</option>
+											    <option value="TAC">TAC</option>
+											    <option value="Toyota">Toyota</option>
+											    <option value="Troller">Troller</option>
+											    <option value="Volvo">Volvo</option>
+											    <option value="VW - VolksWagen">VW - VolksWagen</option>
+											    <option value="Wake">Wake</option>
+											    <option value="Walk">Walk</option>
+								 			</select>
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA UM -->
+
+								 	<!-- COLUNA DOIS -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Modelo *</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" required name="modelo" placeholder="Nome do modelo do carro">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA DOIS -->
+
+								 	<!-- COLUNA TRES -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Ano / Fabricação*</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" required name="ano_fabricacao" placeholder="Ano / Fabricação*">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA TRES -->
+
+						</div>
+
+						<div class="elementor-row">
+
+								 	<!-- COLUNA UM -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Valor do Seguro*</label>
+								 			<input type="text" required class="wpcf7-form-control wpcf7-text" name="valor_do_seguro" placeholder="Seu nome completo">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA UM -->
+
+								 	<!-- COLUNA DOIS -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Observação sobre o veículo</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="observacoes_veiculo" placeholder="Opcional">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA DOIS -->
+
+								 	<!-- COLUNA TRES -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<a href="javascript:void(0)" onclick="jQuery(function($){ $('#tab5').prop('checked', true); });" class="diogenes-botao" title="Selecionar o trajeto!">
+								 		   	  Selecionar <br>o trajeto
+								 		   </a>
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA TRES -->
+
+						</div>
+
+
+					</li>
+					
+					<li class="tab-content tab-content-last">				     
+					    
+						<div class="elementor-row">
+
+								 	<!-- COLUNA UM -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">UF de Origm*</label>
+								 			<select class="wpcf7-form-control wpcf7-select" required name="uf_origem">
+								 				<option value="">Selecione uma opção</option>
+								 				<option value="AC">Acre</option>
+											    <option value="AL">Alagoas</option>
+											    <option value="AP">Amapá</option>
+											    <option value="AM">Amazonas</option>
+											    <option value="BA">Bahia</option>
+											    <option value="CE">Ceará</option>
+											    <option value="DF">Distrito Federal</option>
+											    <option value="ES">Espírito Santo</option>
+											    <option value="GO">Goiás</option>
+											    <option value="MA">Maranhão</option>
+											    <option value="MT">Mato Grosso</option>
+											    <option value="MS">Mato Grosso do Sul</option>
+											    <option value="MG">Minas Gerais</option>
+											    <option value="PA">Pará</option>
+											    <option value="PB">Paraíba</option>
+											    <option value="PR">Paraná</option>
+											    <option value="PE">Pernambuco</option>
+											    <option value="PI">Piauí</option>
+											    <option value="RJ">Rio de Janeiro</option>
+											    <option value="RN">Rio Grande do Norte</option>
+											    <option value="RS">Rio Grande do Sul</option>
+											    <option value="RO">Rondônia</option>
+											    <option value="RR">Roraima</option>
+											    <option value="SC">Santa Catarina</option>
+											    <option value="SP">São Paulo</option>
+											    <option value="SE">Sergipe</option>
+											    <option value="TO">Tocantins</option>
+											    <option value="EX">Estrangeiro</option>
+								 			</select>
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA UM -->
+
+								 	<!-- COLUNA DOIS -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Município de Origem*</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="municipio_origem" placeholder="Município de Origem">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA DOIS -->
+
+								 	<!-- COLUNA TRES -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Observação</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="observacoes_origem_destino" placeholder="(Opcional)">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA TRES -->								 	
+
+						</div>
+
+
+                        <div class="elementor-row">
+
+								 	<!-- COLUNA UM -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">UF de Destino*</label>
+								 			<select class="wpcf7-form-control wpcf7-select" required name="uf_destino">
+								 				<option value="">Selecione uma opção</option>
+								 				<option value="AC">Acre</option>
+											    <option value="AL">Alagoas</option>
+											    <option value="AP">Amapá</option>
+											    <option value="AM">Amazonas</option>
+											    <option value="BA">Bahia</option>
+											    <option value="CE">Ceará</option>
+											    <option value="DF">Distrito Federal</option>
+											    <option value="ES">Espírito Santo</option>
+											    <option value="GO">Goiás</option>
+											    <option value="MA">Maranhão</option>
+											    <option value="MT">Mato Grosso</option>
+											    <option value="MS">Mato Grosso do Sul</option>
+											    <option value="MG">Minas Gerais</option>
+											    <option value="PA">Pará</option>
+											    <option value="PB">Paraíba</option>
+											    <option value="PR">Paraná</option>
+											    <option value="PE">Pernambuco</option>
+											    <option value="PI">Piauí</option>
+											    <option value="RJ">Rio de Janeiro</option>
+											    <option value="RN">Rio Grande do Norte</option>
+											    <option value="RS">Rio Grande do Sul</option>
+											    <option value="RO">Rondônia</option>
+											    <option value="RR">Roraima</option>
+											    <option value="SC">Santa Catarina</option>
+											    <option value="SP">São Paulo</option>
+											    <option value="SE">Sergipe</option>
+											    <option value="TO">Tocantins</option>
+											    <option value="EX">Estrangeiro</option>
+								 			</select>
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA UM -->
+
+								 	<!-- COLUNA DOIS -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<label class="dasForm">Município de Destino*</label>
+								 			<input type="text" class="wpcf7-form-control wpcf7-text" name="municipio_destino" placeholder="Município de Destino">
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA DOIS -->
+
+								    <!-- COLUNA TRES -->
+								 	<div class="elementor-col-33">
+								 		<div class="form-group-tabs">
+								 			<button class="diogenes-botao" type="submit" style="border:none !important;" title="Enviar cotação">
+								 		   	   Enviar <br>cotação
+								 		    </button>
+		 						 		</div>
+								 	</div>
+								 	<!-- COLUNA TRES -->								 	
+
+						</div>
+
+
+					</li>
+
+				</ul>
+
+				
+
+			</div>
+			<!--/ tabs -->
+
+		</div>		
+
+    </form>
+
+
+<style type="text/css" media="screen">
+            
+            .page-tabs {
+				position: relative;
+				width: 100%;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 0;
+			}
+
+			.page-tabs .diogenes-botao{
+				background: #54595f;
+			    color: #fff !important;
+			    text-decoration: none !important;
+			    display: block;
+			    width: 100%;
+			    height: auto;
+			    padding: 4px;
+			    padding-top: 4px;
+			    text-align: center;
+			    line-height: 14px;
+			    font-size: 12px;
+			    border-radius: 3px;
+			    font-weight: bold;
+			    margin-top: 20px;
+			    height: 36px !important;
+			    min-width: 120px !important;
+			}
+
+			.page-tabs .diogenes-botao:hover{
+				background: #fbdd23 !important;
+				color: #000000 !important;
+			}
+           
+           .page-tabs label.dasForm{
+              display: block;
+              width: 100%;
+           }
+
+           .page-tabs .elementor-col-75{
+           	 width: 76.5555%;
+           }
+           
+           .form-group-tabs{
+           	  margin-bottom: 20px;
+           	  margin-right: 14px;
+           }
+
+           .form-group-tabs input,
+           .form-group-tabs select{
+              width: 100%;
+              height: 34px;
+           }
+
+			.pcss3t {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: none;
+				font-size: 0;
+				text-align: left;
+			}
+			.pcss3t > input {
+				position: absolute;
+				display: none;
+			}
+			.pcss3t > label {
+				position: relative;
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: none;
+				cursor: pointer;
+				transition: all 0.1s;
+				-o-transition: all 0.1s;	
+				-ms-transition: all 0.1s;	
+				-moz-transition: all 0.1s;	
+				-webkit-transition: all 0.1s;
+			}
+			.pcss3t > label i {
+				display: block;
+				float: left;
+				margin: 0 8px 0 -2px;
+				padding: 0;
+				border: 0;
+				outline: none;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-size: 17px;
+			}
+			.pcss3t > input:checked + label {
+				cursor: default;
+			}
+			.pcss3t > ul {
+				list-style: none;
+				position: relative;
+				display: block;
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+				border: 0;
+				outline: none;
+				font-size: 13px;
+			}
+			.pcss3t > ul > li {
+				position: absolute;
+				width: 100%;
+				overflow: auto;
+				padding: 30px 40px 7px;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				opacity: 0;
+				transition: all 0.5s;
+				-o-transition: all 0.5s;	
+				-ms-transition: all 0.5s;	
+				-moz-transition: all 0.5s;	
+				-webkit-transition: all 0.5s;
+			}
+			.pcss3t > .tab-content-first:checked ~ ul .tab-content-first,
+			.pcss3t > .tab-content-2:checked ~ ul .tab-content-2,
+			.pcss3t > .tab-content-3:checked ~ ul .tab-content-3,
+			.pcss3t > .tab-content-4:checked ~ ul .tab-content-4,
+			.pcss3t > .tab-content-5:checked ~ ul .tab-content-5,
+			.pcss3t > .tab-content-6:checked ~ ul .tab-content-6,
+			.pcss3t > .tab-content-7:checked ~ ul .tab-content-7,
+			.pcss3t > .tab-content-8:checked ~ ul .tab-content-8,
+			.pcss3t > .tab-content-9:checked ~ ul .tab-content-9,
+			.pcss3t > .tab-content-last:checked ~ ul .tab-content-last {
+				z-index: 1;
+				top: 0;
+				left: 0;
+				opacity: 1;
+				-webkit-transform: scale(1,1);
+				-webkit-transform: rotate(0deg);
+			}
+			.pcss3t-height-auto > ul {
+				height: auto !important;
+			}
+			.pcss3t-height-auto > ul > li {
+				position: static;
+				display: none;
+				height: auto !important;
+			}
+			.pcss3t-height-auto > .tab-content-first:checked ~ ul .tab-content-first,
+			.pcss3t-height-auto > .tab-content-2:checked ~ ul .tab-content-2,
+			.pcss3t-height-auto > .tab-content-3:checked ~ ul .tab-content-3,
+			.pcss3t-height-auto > .tab-content-4:checked ~ ul .tab-content-4,
+			.pcss3t-height-auto > .tab-content-5:checked ~ ul .tab-content-5,
+			.pcss3t-height-auto > .tab-content-6:checked ~ ul .tab-content-6,
+			.pcss3t-height-auto > .tab-content-7:checked ~ ul .tab-content-7,
+			.pcss3t-height-auto > .tab-content-8:checked ~ ul .tab-content-8,
+			.pcss3t-height-auto > .tab-content-9:checked ~ ul .tab-content-9,
+			.pcss3t-height-auto > .tab-content-last:checked ~ ul .tab-content-last {
+				display: block;
+			}
+			.pcss3t .grid-row {
+				margin-top: 20px;
+			}
+			.pcss3t .grid-row:after {
+				content: '';
+				display: table;
+				clear: both;
+			}
+			.pcss3t .grid-row:first-child {
+				margin-top: 0;
+			}
+			.pcss3t .grid-col {
+				display: block;
+				float: left;
+				margin-left: 2%;
+			}
+			.pcss3t .grid-col:first-child {
+				margin-left: 0;
+			}
+			.pcss3t .grid-col .inner {
+				padding: 10px 0;
+				border-radius: 5px;
+				background: #f2f2f2;
+				text-align: center;
+			}
+			.pcss3t .grid-col-1 {
+				width: 15%;
+			}
+			.pcss3t .grid-col-2 {
+				width: 32%;
+			}
+			.pcss3t .grid-col-3 {
+				width: 49%;
+			}
+			.pcss3t .grid-col-4 {
+				width: 66%;
+			}
+			.pcss3t .grid-col-5 {
+				width: 83%;
+			}
+			.pcss3t .grid-col-offset-1 {
+				margin-left: 19%;
+			}
+			.pcss3t .grid-col-offset-1:first-child  {
+				margin-left: 17%;
+			}
+			.pcss3t .grid-col-offset-2 {
+				margin-left: 36%;	
+			}
+			.pcss3t .grid-col-offset-2:first-child {
+				margin-left: 34%;
+			}
+			.pcss3t .grid-col-offset-3 {
+				margin-left: 53%;
+			}
+			.pcss3t .grid-col-offset-3:first-child {
+				margin-left: 51%;
+			}
+			.pcss3t .grid-col-offset-4 {
+				margin-left: 70%;
+			}
+			.pcss3t .grid-col-offset-4:first-child {
+				margin-left: 68%;
+			}
+			.pcss3t .grid-col-offset-5:first-child {
+				margin-left: 85%;
+			}
+			.pcss3t .typography {
+				color: #666;
+			}
+			.pcss3t .typography h1,
+			.pcss3t .typography h2,
+			.pcss3t .typography h3,
+			.pcss3t .typography h4,
+			.pcss3t .typography h5,
+			.pcss3t .typography h6 {
+				margin: 40px 0 0 0;
+				padding: 0;
+				text-align: left;
+				color: #333;
+			}
+			.pcss3t .typography h1 {
+				font-size: 40px;
+				line-height: 60px;
+				text-shadow: 3px 3px rgba(0,0,0,0.1);
+			}
+			.pcss3t .typography h2 {
+				font-size: 32px;
+				line-height: 48px;
+				text-shadow: 2px 2px rgba(0,0,0,0.1);
+			}
+			.pcss3t .typography h3 {
+				font-size: 26px;
+				line-height: 38px;
+				text-shadow: 1px 1px rgba(0,0,0,0.1);
+			}
+			.pcss3t .typography h4 {
+				font-size: 20px;
+				line-height: 30px;
+			}
+			.pcss3t .typography h5 {
+				font-size: 15px;
+				line-height: 23px;
+				text-transform: uppercase;
+			}
+			.pcss3t .typography h6 {
+				font-size: 13px;
+				line-height: 20px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+			.pcss3t .typography p {
+				margin: 20px 0 0 0;
+				padding: 0;
+				line-height: 20px;
+				text-align: left;
+			}
+			.pcss3t .typography ul,
+			.pcss3t .typography ol {
+				list-style: none;
+				margin: 20px 0 0 0;
+				padding: 0;
+			}
+			.pcss3t .typography li {
+				position: relative;
+				margin-top: 5px;
+				padding-left: 20px;
+			}
+			.pcss3t .typography li ul,
+			.pcss3t .typography li ol {
+				margin-top: 5px;
+			}
+			.pcss3t .typography ul li:before {
+				content: '';
+				position: absolute;
+				top: 8px;
+				left: 0;
+				width: 6px;
+				height: 4px;
+				background: #404040;
+			}
+			.pcss3t .typography ol {
+				counter-reset: list1;
+			}
+			.pcss3t .typography ol > li:before {
+				counter-increment:list1;
+				content: counter(list1)'.';
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.pcss3t .typography a {
+				text-decoration: underline;
+				color: #1889e6;
+			}
+			.pcss3t .typography a:hover {
+				text-decoration: none;
+			}
+			.pcss3t .typography .pic {
+				padding: 4px;
+				border: 1px dotted #ccc;
+			}
+			.pcss3t .typography .pic img {
+				display: block;
+			}
+			.pcss3t .typography .pic-right {
+				float: right;
+				margin: 0 0 10px 20px;
+			}
+			.pcss3t .typography .link {
+				text-decoration: underline;
+				color: #1889e6;
+				cursor: pointer;
+			}
+			.pcss3t .typography .link:hover {
+				text-decoration: none;
+			}
+			.pcss3t .typography h1:first-child,
+			.pcss3t .typography h2:first-child,
+			.pcss3t .typography h3:first-child,
+			.pcss3t .typography h4:first-child,
+			.pcss3t .typography h5:first-child,
+			.pcss3t .typography h6:first-child,
+			.pcss3t .typography p:first-child {
+				margin-top: 0;
+			}
+			.pcss3t .typography .text-center {
+				text-align: center;
+			}
+			.pcss3t .typography .text-right {
+				text-align: right;
+			}
+			.pcss3t-steps > label {
+				cursor: default;
+			}
+			.pcss3t-effect-scale > ul > li {
+				-webkit-transform: scale(0.1,0.1);
+			}
+			.pcss3t-effect-rotate  > ul > li {
+				-webkit-transform: rotate(180deg);
+			}
+			.pcss3t-effect-slide-top > ul > li {
+				top: -40px;
+			}
+			.pcss3t-effect-slide-right > ul > li {
+				left: 80px;
+			}
+			.pcss3t-effect-slide-bottom > ul > li {
+				top: 40px;
+			}
+			.pcss3t-effect-slide-left > ul > li {
+				left: -80px;
+			}
+
+			/**/
+			/* top right */
+			/**/
+			.pcss3t-layout-top-right {
+				text-align: right;
+			}
+
+
+			/**/
+			/* top center */
+			/**/
+			.pcss3t-layout-top-center {
+				text-align: center;
+			}
+
+
+			/**/
+			/* top combi */
+			/**/
+			.pcss3t > .right {
+				float: right;
+			}
+
+
+			.pcss3t-icons-top > label {
+				text-align: center;
+			}
+			.pcss3t-icons-top > label i {
+				float: none;
+				margin: 0 auto -10px;
+				padding-top: 17px;
+				font-size: 23px;
+				line-height: 23px;
+				text-align: center;
+			}
+			.pcss3t-icons-right > label i {
+				float: right;
+				margin: 0 -2px 0 8px;
+			}
+			.pcss3t-icons-bottom > label {
+				text-align: center;
+			}
+			.pcss3t-icons-bottom > label i {
+				float: none;
+				margin: -10px auto 0;
+				padding-bottom: 17px;
+				font-size: 23px;
+				line-height: 23px;
+				text-align: center;
+			}
+			.pcss3t-icons-only > label i {
+				float: none;
+				margin: 0 auto;
+				font-size: 23px;
+			}
+			.pcss3t > label {	
+				padding: 0 20px;
+				background: #e5e5e5;
+				font-size: 13px;
+				line-height: 49px;
+				width: 33.33333%;
+			}
+			@media(max-width: 540px){
+                 .pcss3t > label {	
+					padding: 0 20px;
+					background: #e5e5e5;
+					font-size: 13px;
+					line-height: 49px;
+					width: 100%;
+				}
+			} 
+			.pcss3t > label:hover {
+				background: #f2f2f2;
+			}
+			.pcss3t > input:checked + label {
+				background: #fff;
+			}
+			.pcss3t > ul {
+				background: #fff;
+				text-align: left;
+			}
+			.pcss3t-steps > label:hover {
+				background: #e5e5e5;	
+			}
+
+
+			.pcss3t > ul,
+			.pcss3t > ul > li {
+				height: auto;
+			}
+
+</style>

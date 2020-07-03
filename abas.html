@@ -17,7 +17,7 @@
 
 				<ul>
 
-                    <input type="hidden" name="home_url" value="http://uniaotransportedeveiculos.com.br/site" />
+                    <input type="hidden" name="home_url" value="http://uniaotransportedeveiculos.com.br/obrigado-cotacao/" />
 
 					<li class="tab-content tab-content-first typography">
 
@@ -239,7 +239,7 @@
 								 	<!-- COLUNA UM -->
 								 	<div class="elementor-col-33">
 								 		<div class="form-group-tabs">
-								 			<label class="dasForm">UF de Origm*</label>
+								 			<label class="dasForm">UF de Origem*</label>
 								 			<select class="wpcf7-form-control wpcf7-select" required name="uf_origem">
 								 				<option value="">Selecione uma opção</option>
 								 				<option value="AC">Acre</option>
@@ -384,8 +384,8 @@
 			}
 
 			.page-tabs .diogenes-botao{
-				background: #54595f;
-			    color: #fff !important;
+				background: #fbdd23 !important;
+			    color: #000000 !important;
 			    text-decoration: none !important;
 			    display: block;
 			    width: 100%;
@@ -400,6 +400,9 @@
 			    margin-top: 20px;
 			    height: 36px !important;
 			    min-width: 120px !important;
+			    text-transform: uppercase;
+			    border:none !important;
+			    outline: none !important;
 			}
 
 			.page-tabs .diogenes-botao:hover{
@@ -410,6 +413,8 @@
            .page-tabs label.dasForm{
               display: block;
               width: 100%;
+              font-weight: bold;
+              text-transform: uppercase;
            }
 
            .page-tabs .elementor-col-75{
@@ -477,6 +482,7 @@
 				border: 0;
 				outline: none;
 				font-size: 13px;
+				padding-bottom: 9px;
 			}
 			.pcss3t > ul > li {
 				position: absolute;
@@ -799,26 +805,35 @@
 				font-size: 23px;
 			}
 			.pcss3t > label {	
-				padding: 0 20px;
-				background: #e5e5e5;
-				font-size: 13px;
-				line-height: 49px;
-				width: 33.33333%;
+				    padding: 0 20px;
+				    background: #000;
+				    font-size: 13px;
+				    line-height: 49px;
+				    width: 33.33333%;
+				    color: #fff;
+				    text-align: center;
+				    font-weight: bold;
+				    text-transform: uppercase;
 			}
 			@media(max-width: 540px){
                  .pcss3t > label {	
 					padding: 0 20px;
-					background: #e5e5e5;
-					font-size: 13px;
-					line-height: 49px;
-					width: 100%;
+				    background: #000;
+				    font-size: 13px;
+				    line-height: 49px;
+				    width: 33.33333%;
+				    color: #fff;
+				    text-align: center;
 				}
 			} 
+			/*
 			.pcss3t > label:hover {
 				background: #f2f2f2;
 			}
+			*/
 			.pcss3t > input:checked + label {
 				background: #fff;
+				color: #000;
 			}
 			.pcss3t > ul {
 				background: #fff;
